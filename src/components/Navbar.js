@@ -23,7 +23,7 @@ export default function Navbar(props) {
           </ul>
           <div className='box' >
           <div className='content mx-2' >{props.mode==='dark'?'Light mode':'Dark Mode'}</div>
-         <img src={props.mode==='dark'?'../../light.png':'../../dark.png'} alt='light' id='icon' style={props.mode==='dark'?{height:'40px',width:'40px'}:{height:'25px',width:'25px',marginRight:'2.5px'}}  onClick={props.toggleMode}></img>
+         <img src={props.mode==='dark'?'light.png':'dark.png'} alt='light' id='icon' style={props.mode==='dark'?{height:'40px',width:'40px'}:{height:'25px',width:'25px',marginRight:'2.5px'}}  onClick={props.toggleMode}></img>
          
          </div>
       </div>
