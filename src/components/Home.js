@@ -45,7 +45,6 @@ export default function Home(props) {
               </section>
 
               </ul>
-              <div className="container">
               <div className="row row-cols-2">
               <div className="card my-4"  style={{backgroundColor : props.mode ==='dark'?'rgb(43 45 47)':'white',color : props.mode ==='light' ? 'black':'whitesmoke',width : '35rem',height:'29rem'}}>
               <img src="data.png" className="card-img-top my-3" alt="..."/>
@@ -62,12 +61,10 @@ export default function Home(props) {
                 </ul>
                 A good data analyst will spend around 70-90% of their time cleaning their data. This might sound excessive. But focusing on the wrong data points (or analyzing erroneous data) will severely impact your results.In this case I have used python libraries for data cleaning. Along with python libraries I have also used Power BI for Data Cleaning and Visualization.
               </section>
-
               </ul>
-              
               </div>
             </div>
-            </div>
+         
              
             <ul>
               <li className='liHead'>Analyzing the data</li><section>You now have a wealth of data. You’ve spent time cleaning it up. It’s as organized as it’ll ever be. Now you’re ready for the fun stuff.

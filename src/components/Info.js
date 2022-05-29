@@ -26,11 +26,11 @@ export default function Info(props) {
 
 
   return (
-    <div className='container mx-5'>
+    <>
 
-<nav id="navbar-example2" className={`navbar navbar-${props.mode} bg-${props.mode} px-3 my-5`}>
+<nav id="navbar-example2" className={`navbar navbar-${props.mode} bg-${props.mode} px-3 mx-5 my-5`}>
   <h1 className="navbar-brand " style={{fontSize:'20px'}} >Quick Access</h1>
-  <ul className="nav nav-pills">
+  <ul className="nav nav-pills mx-5">
     <li className="nav-item mx-3 my-1">
     <HashLink smooth to="#headingOne" className="dropdown-item" >Body Type</HashLink>
     </li>
@@ -58,7 +58,7 @@ export default function Info(props) {
 </nav>
 
 
-<div className="card">
+<div className="card mx-5">
           <div className="card-body my-1" style={{backgroundColor : props.mode ==='dark'?'rgb(33 37 41)':'white',color : props.mode ==='light' ? 'black':'whitesmoke'}}>
           Today, automotive industry in India is growing at a flying speed as we are among top 10 in the world in this sector. India is considered as the next big center by auto manufacturers. Change in lifestyle, growth in income and easy finance options have made it more favorable for the industry to grow.
          <br></br><br></br>
@@ -68,7 +68,7 @@ export default function Info(props) {
           </div>
        </div>
      
-      <div className="accordion my-5" id="accordionPanelsStayOpenExample">
+      <div className="accordion my-5 mx-5" id="accordionPanelsStayOpenExample">
       <div className="accordion-item"  style={{backgroundColor : props.mode ==='dark'?'#212529':'rgb(235 235 235)',color : props.mode ==='light' ? 'black':'whitesmoke'}} >
         <h2 className="accordion-header" id="headingOne">
           <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"  style={{backgroundColor : props.mode ==='dark'?'#2B2D2F':'white',color : props.mode ==='light' ? 'black':'whitesmoke'}}>
@@ -386,6 +386,6 @@ export default function Info(props) {
   </div>
 </div>
     
-  </div>
+  </>
   )
 }
