@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CarsAnalysisReport/static/css/main.18018e5a.css",
-    "main.js": "/CarsAnalysisReport/static/js/main.0e61e4dc.js",
+    "main.js": "/CarsAnalysisReport/static/js/main.eb46fea8.js",
     "static/js/787.d053ff59.chunk.js": "/CarsAnalysisReport/static/js/787.d053ff59.chunk.js",
     "index.html": "/CarsAnalysisReport/index.html",
     "main.18018e5a.css.map": "/CarsAnalysisReport/static/css/main.18018e5a.css.map",
-    "main.0e61e4dc.js.map": "/CarsAnalysisReport/static/js/main.0e61e4dc.js.map",
+    "main.eb46fea8.js.map": "/CarsAnalysisReport/static/js/main.eb46fea8.js.map",
     "787.d053ff59.chunk.js.map": "/CarsAnalysisReport/static/js/787.d053ff59.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18018e5a.css",
-    "static/js/main.0e61e4dc.js"
+    "static/js/main.eb46fea8.js"
   ]
 }
